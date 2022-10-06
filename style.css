@@ -1,0 +1,18 @@
+html{
+    font-size: 25px;
+}
+
+table,tr,td,th{
+    border: 2px solid black;
+    border-collapse: separate;
+    padding: 5px;  
+    border-spacing: 5px;
+    font-weight: bold;
+}
+tbody tr:nth-child(even){
+background: #f0f0f2;
+}
+thead{
+    background: #3f5472;
+    color: #fff;
+}
